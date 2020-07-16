@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+    <head><title>getting input from user</title>
+    <body>
+    <script>
+        var name = promt(" what is your name");
+        console.log(name);
+    </script>
+    </body>
+    </head>  
+</html>

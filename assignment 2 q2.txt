@@ -1,0 +1,40 @@
+                                 Assignment 2
+
+Question 2 Explain with the example string and array method.
+
+STRING METHOD -
+
+ 1) Slice = slice () extracts a part of string and return the extracted part in a new string.
+            example = let str = "apple, banana, mango";
+                      let res = str.slice(7,13); 
+
+2) Substring method = it is similar to slice only differece is it cannot accept negative index.
+                      Eg = let str = "apple, banana, mango";
+                           let str = str.substring(7,13);
+
+3) Replace method = The replace method replaces a speicified value with another value in the string
+                    eg - str " please visit microsoft ";
+                         var n = str.replace("microsoft", "dom");
+
+4) Replace all = To replace all the matches use a regular expression with a /g flag .
+                 eg -str ="please visit ms and ms";
+                     var n = str.replace(/microsoft/g,"dom"); 
+
+ ARRAY METHOD -  
+
+1) Slicing an array - The slice method slices out a piece of an array into a new array. 
+                        eg - var fruits = ["banana","orange","lemon"];
+                             var citrus = fruits.slice(1)
+
+2) splicing an array - This method is used to be add new items to an array.
+                       var fruits = ["banana","orange","apple","mango"];
+                       fruits.splice(2,0,"lemon","kiwi");
+
+3)Unshift method - The unshift method returns the new array length .
+                   Eg - var fruits = ["banana","orange","apple","mango"];
+                   fruits.unshift("lemon"); //
+                   returns 5  
+
+4)Shift method - This method is remove the first array element and shifts all other elements to a lower index.
+                 eg-  var fruits =["banana","orange","apple","mango"];
+                      fruits.shift();   // 
